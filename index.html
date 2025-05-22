@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grid Light Project</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="config-panel">
+    <label>
+      Grid Size:
+      <input type="number" id="gridSizeInput" min="2" max="10" value="4">
+    </label>
+    <label>
+      Delay (ms):
+      <input type="number" id="delayInput" min="100" value="400">
+    </label>
+    <button id="applyBtn">Apply</button>
+  </div>
+
+  <div class="grid-container" id="grid-container"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
